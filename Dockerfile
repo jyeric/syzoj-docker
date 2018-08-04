@@ -1,7 +1,9 @@
 FROM ubuntu:latest
+RUN sed -i s/http:\\/\\/archive.ubuntu.com/http:\\/\\/mirrors.aliyun.com/g /etc/apt/sources.list && sed -i s/http:\\/\\/security.ubuntu.com/http:\\/\\/mirrors.aliyun.com/g /etc/apt/sources.list
 RUN apt-get update -y
 RUN apt-get install libboost-filesystem-dev build-essential curl -y
 RUN apt-get install npm p7zip-full redis-server rabbitmq-server mysql-client -y
+RUN npm set registry https://registry.npm.taobao.org
 RUN npm install -g n
 RUN n lts
 RUN npm install -g npm@5.6.0
