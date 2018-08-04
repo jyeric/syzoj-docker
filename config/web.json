@@ -3,10 +3,10 @@
   "hostname": "0.0.0.0",
   "port": "5283",
   "db": {
-    "database": "syzoj",
-    "username": "root",
-    "password": "111",
-    "host": "127.0.0.1:3306",
+    "database": "sql12250515",
+    "username": "sql12250515",
+    "password": "1fXRkaNYab",
+    "host": "sql12.freemysqlhosting.net:3306",
     "dialect": "mysql"
   },
   "register_mail": false,
