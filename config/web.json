@@ -3,10 +3,10 @@
   "hostname": "0.0.0.0",
   "port": "5283",
   "db": {
-    "database": "sql12250515",
-    "username": "sql12250515",
-    "password": "1fXRkaNYab",
-    "host": "sql12.freemysqlhosting.net:3306",
+    "database": "b17_22520918_syzoj",
+    "username": "b17_22520918",
+    "password": "likecoding",
+    "host": "sql310.byethost.com",
     "dialect": "mysql"
   },
   "register_mail": false,
