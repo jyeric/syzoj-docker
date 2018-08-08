@@ -9,7 +9,7 @@ services:
       - /mnt/syzoj-tmp2
       - /mnt/syzoj-bin
     volumes:
-      - /home/jiangyue/syzoj-docker/sandbox-rootfs:/sandbox-rootfs
+      - /root/sandbox-rootfs:/sandbox-rootfs
       - /opt/syzoj/data:/mnt/syzoj-data
     privileged: true
     networks:
